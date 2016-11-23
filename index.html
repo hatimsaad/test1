@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Playground</title>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/salesforce-lightning-design-system.css" />
+  </head>
+  <body>
+    <div class="slds-grid slds-wrap">
+
+
+
+    	<!--nav-->
+
+
+
+      <nav class="slds-col slds-size--1-of-1 slds-m-bottom--large">
+		        <div class="slds-page-header" role="banner">
+		  <div class="slds-grid">
+		    <div class="slds-col slds-has-flexi-truncate">
+		      <div class="slds-media slds-media--center slds-no-space slds-grow">
+		        <div class="slds-media__figure">
+		          <svg aria-hidden="true" class="slds-icon slds-icon-standard-user">
+		            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#user"></use>
+		          </svg>
+		        </div>
+		        <div class="slds-media__body">
+		          <p class="slds-text-heading--label">Record Type</p>
+		          <h1 class="slds-page-header__title slds-m-right--small slds-truncate slds-align-middle" title="Record Title">Record Title</h1>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="slds-col slds-no-flex slds-grid slds-align-bottom">
+		      <button class="slds-button slds-button--neutral slds-not-selected" aria-live="assertive">
+		        <span class="slds-text-not-selected">
+		          <svg aria-hidden="true" class="slds-button__icon--stateful slds-button__icon--left">
+		            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add"></use>
+		          </svg>Follow</span>
+		        <span class="slds-text-selected">
+		          <svg aria-hidden="true" class="slds-button__icon--stateful slds-button__icon--left">
+		            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+		          </svg>Following</span>
+		        <span class="slds-text-selected-focus">
+		          <svg aria-hidden="true" class="slds-button__icon--stateful slds-button__icon--left">
+		            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
+		          </svg>Unfollow</span>
+		      </button>
+		      <div class="slds-button-group" role="group">
+		      	<button class="slds-button slds-button--icon-border">
+			    <svg aria-hidden="true" class="slds-button__icon">
+			      <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chart"></use>
+			    </svg>
+			    <span class="slds-assistive-text">Charts</span>
+			  </button>
+		        <button class="slds-button slds-button--neutral">Edit</button>
+		        <button class="slds-button slds-button--neutral">Delete</button>
+		        <button class="slds-button slds-button--neutral">Clone</button>
+		        <div class="slds-button--last">
+		          <button class="slds-button slds-button--icon-border-filled">
+		            <svg aria-hidden="true" class="slds-button__icon">
+		              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+		            </svg>
+		            <span class="slds-assistive-text">More</span>
+		          </button>
+
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  <ul class="slds-grid slds-page-header__detail-row">
+		    <li class="slds-page-header__detail-block">
+		      <p class="slds-text-heading--label-normal slds-truncate slds-m-bottom--xx-small" title="Field 1">Field 1</p>
+		      <p class="slds-text-body--regular slds-truncate" title="Description that demonstrates truncation with a long text field">Description that demonstrates truncation with a long text field.</p>
+		    </li>
+		    <li class="slds-page-header__detail-block">
+		      <p class="slds-text-heading--label-normal slds-truncate slds-m-bottom--xx-small" title="Field2 (3)">Field 2 (3)
+		        <button class="slds-button slds-button--icon-bare">
+		          <svg aria-hidden="true" class="slds-button__icon slds-button__icon--small">
+		            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+		          </svg>
+		          <span class="slds-assistive-text">More Actions</span>
+		        </button>
+		      </p>
+		      <p class="slds-text-body--regular">Multiple Values</p>
+		    </li>
+		    <li class="slds-page-header__detail-block">
+		      <p class="slds-text-heading--label-normal slds-truncate slds-m-bottom--xx-small" title="Field 3">Field 3</p><a href="javascript:void(0);">Hyperlink</a></li>
+		    <li class="slds-page-header__detail-block">
+		      <p class="slds-text-heading--label-normal slds-truncate slds-m-bottom--xx-small" title="Field 4">Field 4</p>
+		      <p>
+		        <span title="Description (2-line truncation—must use JS to truncate).">Description (2-line truncat...</span>
+		      </p>
+		    </li>
+		  </ul>
+		</div>
+      </nav>
+
+
+
+      <!--main-->
+
+
+
+
+
+      <main class="slds-col slds-size--1-of-4 slds-p-around--small">
+        <img src="https://s3-us-west-1.amazonaws.com/sfdc-demo/realty/house08.jpg" alt="Cool house." />
+      </main>
+
+
+
+
+      <!--aside-->
+
+
+
+
+
+
+
+      <aside class="slds-col slds-size--1-of-2 slds-p-around--small">
+        
+        <div class="slds-tabs--default">
+		  <ul class="slds-tabs--default__nav" role="tablist">
+		    <li class="slds-tabs--default__item slds-text-heading--label slds-active" title="Item One" role="presentation"><a class="slds-tabs--default__link" href="javascript:void(0);" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-1__item">Item One</a></li>
+		    <li class="slds-tabs--default__item slds-text-heading--label" title="Item Two"
+		      role="presentation"><a class="slds-tabs--default__link" href="javascript:void(0);" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2" id="tab-default-2__item">Item Two</a></li>
+		    <li class="slds-tabs--default__item slds-text-heading--label" title="Item Three"
+		      role="presentation"><a class="slds-tabs--default__link" href="javascript:void(0);" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-3" id="tab-default-3__item">Item Three</a></li>
+		  </ul>
+		  <div id="tab-default-1" class="slds-tabs--default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">
+			<ul>
+				  <li>
+				    <span class="slds-assistive-text">Task</span>
+				    <div class="slds-media">
+				      <div class="slds-media__body">
+				        <div class="slds-media slds-media--timeline slds-timeline__media--task">
+				          <div class="slds-media__figure slds-timeline__icon">
+				            <div class="slds-icon_container">
+				              <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-standard-task">
+				                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#task"></use>
+				              </svg>
+				            </div>
+				          </div>
+				          <div class="slds-media__body">
+				            <div class="slds-media">
+				              <div class="slds-media__figure">
+				                <label class="slds-checkbox" for="mark-complete">
+				                  <input name="checkbox" type="checkbox" id="mark-complete" />
+				                  <span class="slds-checkbox--faux"></span>
+				                  <span class="slds-form-element__label slds-assistive-text">mark-complete</span>
+				                </label>
+				              </div>
+				              <div class="slds-media__body">
+				                <p class="slds-truncate" title="Review proposals for EBC deck with larger team and have marketing review this"><a href="javascript:void(0);">Review proposals for EBC deck with larger team and have marketing review this</a></p>
+				                <ul class="slds-list--horizontal slds-wrap">
+				                  <li class="slds-m-right--large">
+				                    <span class="tile__label slds-text-heading--label-normal">Contact:</span>
+				                    <span class="slds-text-body--small"><a href="javascript:void(0);">Lei Chan</a></span>
+				                  </li>
+				                  <li class="slds-m-right--large">
+				                    <span class="tile__label slds-text-heading--label-normal">Assigned to:</span>
+				                    <span class="slds-text-body--small"><a href="javascript:void(0);">Betty Mason</a></span>
+				                  </li>
+				                </ul>
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+				      </div>
+				      <div class="slds-media__figure slds-media__figure--reverse">
+				        <div class="slds-timeline__actions">
+				          <p class="slds-timeline__date">Feb 24</p>
+				          <button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small">
+				            <svg aria-hidden="true" class="slds-button__icon">
+				              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+				            </svg>
+				            <span class="slds-assistive-text">Switch</span>
+				          </button>
+				        </div>
+				      </div>
+				    </div>
+				  </li>
+				  <li>
+				    <span class="slds-assistive-text">Event</span>
+				    <div class="slds-media">
+				      <div class="slds-media__body">
+				        <div class="slds-media slds-media--timeline slds-timeline__media--event">
+				          <div class="slds-media__figure slds-timeline__icon">
+				            <div class="slds-icon_container">
+				              <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-standard-event">
+				                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#event"></use>
+				              </svg>
+				            </div>
+				          </div>
+				          <div class="slds-media__body">
+				            <p class="slds-truncate" title="Company One — EBC Meeting"><a href="javascript:void(0);">Company One — EBC Meeting</a></p>
+				            <p class="slds-truncate">Let’s get together to review the theater’s layout and facilities. We’ll also discuss potential things that truncate at a certain width.</p>
+				            <ul class="slds-list--horizontal slds-wrap">
+				              <li class="slds-m-right--large">
+				                <span class="tile__label slds-text-heading--label-normal">Time:</span>
+				                <span class="slds-text-body--small"><a href="javascript:void(0);">Feb 23, 2015 11:00am–12:00pm</a></span>
+				              </li>
+				              <li class="slds-m-right--large">
+				                <span class="tile__label slds-text-heading--label-normal">Location:</span>
+				                <span class="slds-text-body--small"><a href="javascript:void(0);">300 Pike St, San Francisco CA</a></span>
+				              </li>
+				              <li class="slds-m-right--large">
+				                <span class="tile__label slds-text-heading--label-normal">Name:</span>
+				                <span class="slds-text-body--small"><a href="javascript:void(0);">Lei Chan</a>, <a href="javascript:void(0);">Jason Dewar</a>, <a href="javascript:void(0);">Gwen Jones</a> and <a href="javascript:void(0);">Pete Schaffer</a></span>
+				              </li>
+				            </ul>
+				          </div>
+				        </div>
+				      </div>
+				      <div class="slds-media__figure slds-media__figure--reverse">
+				        <div class="slds-timeline__actions">
+				          <p class="slds-timeline__date">Feb 24</p>
+				          <button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small">
+				            <svg aria-hidden="true" class="slds-button__icon">
+				              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+				            </svg>
+				            <span class="slds-assistive-text">Switch</span>
+				          </button>
+				        </div>
+				      </div>
+				    </div>
+				  </li>
+				  <li>
+				    <span class="slds-assistive-text">Call</span>
+				    <div class="slds-media">
+				      <div class="slds-media__body">
+				        <div class="slds-media slds-media--timeline slds-timeline__media--call">
+				          <div class="slds-media__figure slds-timeline__icon">
+				            <div class="slds-icon_container">
+				              <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-standard-log-a-call">
+				                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#log_a_call"></use>
+				              </svg>
+				            </div>
+				          </div>
+				          <div class="slds-media__body">
+				            <p class="slds-truncate" title="Mobile conversation on Monday"><a href="javascript:void(0);">Mobile conversation on Monday</a></p>
+				            <p class="slds-truncate">Lei seemed interested in closing this deal quickly! Let’s move.</p>
+				            <ul class="slds-list--horizontal slds-wrap">
+				              <li class="slds-m-right--large">
+				                <span class="tile__label slds-text-heading--label-normal">Name:</span>
+				                <span class="slds-text-body--small"><a href="javascript:void(0);">Lei Chan</a></span>
+				              </li>
+				              <li class="slds-m-right--large">
+				                <span class="tile__label slds-text-heading--label-normal">Assigned to:</span>
+				                <span class="slds-text-body--small"><a href="javascript:void(0);">Betty Mason</a></span>
+				              </li>
+				            </ul>
+				          </div>
+				        </div>
+				      </div>
+				      <div class="slds-media__figure slds-media__figure--reverse">
+				        <div class="slds-timeline__actions">
+				          <p class="slds-timeline__date">Feb 24</p>
+				          <button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small">
+				            <svg aria-hidden="true" class="slds-button__icon">
+				              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+				            </svg>
+				            <span class="slds-assistive-text">Switch</span>
+				          </button>
+				        </div>
+				      </div>
+				    </div>
+				  </li>
+				  <li>
+				    <span class="slds-assistive-text">Email</span>
+				    <div class="slds-media">
+				      <div class="slds-media__body">
+				        <div class="slds-media slds-media--timeline slds-timeline__media--email">
+				          <div class="slds-media__figure slds-timeline__icon">
+				            <div class="slds-icon_container">
+				              <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-standard-email">
+				                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#email"></use>
+				              </svg>
+				            </div>
+				          </div>
+				          <div class="slds-media__body">
+				            <p class="slds-truncate" title="Mobile conversation on Monday"><a href="javascript:void(0);">Mobile conversation on Monday</a></p>
+				            <p class="slds-truncate">Hi guys, Thanks for meeting with the team today and going through the proposals we saw. This goes on until it’s truncated.</p>
+				            <ul class="slds-list--horizontal slds-wrap">
+				              <li class="slds-m-right--large">
+				                <span class="tile__label slds-text-heading--label-normal">To:</span>
+				                <span class="slds-text-body--small"><a href="javascript:void(0);">Lei Chan</a></span>
+				              </li>
+				              <li class="slds-m-right--large">
+				                <span class="tile__label slds-text-heading--label-normal">From:</span>
+				                <span class="slds-text-body--small"><a href="javascript:void(0);">Jason Dewar</a></span>
+				              </li>
+				            </ul>
+				          </div>
+				        </div>
+				      </div>
+				      <div class="slds-media__figure slds-media__figure--reverse">
+				        <div class="slds-timeline__actions">
+				          <p class="slds-timeline__date">Feb 24</p>
+				          <button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small">
+				            <svg aria-hidden="true" class="slds-button__icon">
+				              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+				            </svg>
+				            <span class="slds-assistive-text">Switch</span>
+				          </button>
+				        </div>
+				      </div>
+				    </div>
+				  </li>
+				</ul>	
+		  </div>
+		  <div id="tab-default-2" class="slds-tabs--default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+		  <div id="tab-default-3" class="slds-tabs--default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+		</div>
+      </aside>
+
+
+
+
+
+      <!--nav-->
+
+
+
+
+
+
+
+
+      <nav class="slds-col slds-size--1-of-1 slds-m-top--large">
+        <article class="slds-card">
+			  <header class="slds-card__header slds-grid">
+			    <div class="slds-media slds-media--center slds-has-flexi-truncate">
+			      <div class="slds-media__figure">
+			        <svg aria-hidden="true" class="slds-icon slds-icon-standard-contact slds-icon--small">
+			          <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#contact"></use>
+			        </svg>
+			      </div>
+			      <div class="slds-media__body slds-truncate">
+			        <h2>
+			          <a href="javascript:void(0);" class="slds-text-link--reset">
+			            <span class="slds-text-heading--small">Contacts (1)</span>
+			          </a>
+			        </h2>
+			      </div>
+			    </div>
+			    <div class="slds-no-flex">
+			      <button class="slds-button slds-button--neutral slds-col--bump-left">New</button>
+			    </div>
+			  </header>
+			  <div class="slds-card__body">
+			    <table class="slds-table slds-table--bordered slds-no-row-hover slds-table--cell-buffer">
+			      <thead>
+			        <tr class="slds-text-heading--label">
+			          <th scope="col">
+			            <div class="slds-truncate" title="Name">Name</div>
+			          </th>
+			          <th scope="col">
+			            <div class="slds-truncate" title="Company">Company</div>
+			          </th>
+			          <th scope="col">
+			            <div class="slds-truncate" title="Title">Title</div>
+			          </th>
+			          <th scope="col">
+			            <div class="slds-truncate" title="Email">Email</div>
+			          </th>
+			        </tr>
+			      </thead>
+			      <tbody>
+			        <tr class="slds-hint-parent">
+			          <th scope="row">
+			            <div class="slds-truncate" title="Adam Choi"><a href="javascript:void(0);">Adam Choi</a></div>
+			          </th>
+			          <td>
+			            <div class="slds-truncate" title="Company One">Company One</div>
+			          </td>
+			          <td>
+			            <div class="slds-truncate" title="Director of Operations">Director of Operations</div>
+			          </td>
+			          <td>
+			            <div class="slds-truncate" title="adam@company.com">adam@company.com</div>
+			          </td>
+			        </tr>
+			      </tbody>
+			    </table>
+			  </div>
+			  <div class="slds-card__footer"><a href="javascript:void(0);">View All <span class="slds-assistive-text">entity type</span></a></div>
+			</article>
+      </nav>
+    </div>
+
+
+
+
+
+
+
+    <div class="slds-wizard" role="navigation">
+  <ol class="slds-wizard__list">
+    <li class="slds-wizard__item slds-is-active">
+      <a href="javascript:void(0);" class="slds-wizard__link">
+        <span class="slds-wizard__marker"></span>
+        <span class="slds-wizard__label slds-text-heading--label slds-truncate">Navigation</span>
+      </a>
+    </li>
+    <li class="slds-wizard__item slds-is-active">
+      <a href="javascript:void(0);" class="slds-wizard__link">
+        <span class="slds-wizard__marker"></span>
+        <span class="slds-wizard__label slds-text-heading--label slds-truncate">Actions</span>
+      </a>
+    </li>
+    <li class="slds-wizard__item slds-is-active">
+      <a href="javascript:void(0);" class="slds-wizard__link">
+        <span class="slds-wizard__marker"></span>
+        <span class="slds-wizard__label slds-text-heading--label slds-truncate">Compact Layout</span>
+      </a>
+    </li>
+    <li class="slds-wizard__item slds-is-active">
+      <a href="javascript:void(0);" class="slds-wizard__link">
+        <span class="slds-wizard__marker"></span>
+        <span class="slds-wizard__label slds-text-heading--label slds-truncate">Review</span>
+      </a>
+    </li>
+    <li class="slds-wizard__item">
+      <a href="javascript:void(0);" class="slds-wizard__link">
+        <span class="slds-wizard__marker"></span>
+        <span class="slds-wizard__label slds-text-heading--label slds-truncate">Invite</span>
+      </a>
+    </li>
+  </ol>
+  <span class="slds-wizard__progress">
+    <span class="slds-wizard__progress-bar" style="width:75%;"></span>
+  </span>
+</div>
+
+  </body>
+</html>
